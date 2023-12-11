@@ -1,0 +1,33 @@
+body {
+  line-height:1.6;
+  font-size:18px;
+  color:#444;
+  padding:0 10px;
+}
+h1,h2,h3 {
+  line-height:1.2;
+}
+ul.flex-2-cols {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+ul.flex-2-cols li {
+  width: 50%;
+  box-sizing: border-box;
+}
+ul.flex-3-cols {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+ul.flex-3-cols li {
+  width: 33%;
+  box-sizing: border-box;
+}
+ul li .container {
+  position: relative;
+  margin: auto;
+  height: 40vh;
+  padding: 20px;
+}
